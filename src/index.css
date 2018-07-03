@@ -1,0 +1,74 @@
+body {
+  margin-left: 0;
+  padding: 0;
+  font-family: sans-serif;
+  align:center;
+  background: ;
+
+}
+.form-group{
+    margin-left: 0%;
+}
+.login{
+ margin-left: 0%;
+
+}
+.subbtn{
+    margin-top: 25px;
+    padding-left: 85px;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-radius: 30px;
+
+
+}
+.text{
+ margin-right: 85px;
+}
+
+h3{
+    text-align: center;
+    font-family: Georgia;
+}
+.form-rounded {
+border-radius:  1rem;
+background-color: #EDF2F7;
+-webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #333333;
+  opacity:0.8;
+    }
+ input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  }
+
+  input[type=email]:focus, email:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  }
+
+  input[type=password]:focus, password:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  }
+  input[type=search] {
+  border: 1px dotted #999;
+  border-radius: 0;
+
+  -webkit-appearance: none;
+}
